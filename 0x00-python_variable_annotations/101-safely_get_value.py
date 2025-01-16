@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-`safely_get_value` retrievesfrom a dictionary using a given key. If not returns default value."""
+`safely_get_value` retrievesfrom a dictionary If not returns default value."""
 
 from typing import Mapping, Any, Union, TypeVar
 
