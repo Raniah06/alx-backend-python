@@ -1,25 +1,25 @@
 #!/usr/bin/env python3
-from typing import List
+from typing import Tuple, List
 
-def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
-    Function to zoom in on each item in the list by a factor.
+    Function to zoom in on each item in the tuple by a factor.
     
     Parameters:
-    - lst: List of integers to zoom in on.
+    - lst: Tuple of items to zoom in on.
     - factor: The factor by which to zoom in (default is 2).
     
     Returns:
     - A list with each item in lst repeated factor times.
     """
-    zoomed_in: List[int] = [
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
     ]
     return zoomed_in
 
 
-array = [12, 72, 91]
+array = (12, 72, 91)
 
 zoom_2x = zoom_array(array)
 
