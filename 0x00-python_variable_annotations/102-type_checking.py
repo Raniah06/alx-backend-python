@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-This module contains a function to zoom in on elements of a tuple by a given factor.
-"""
+This module contains a function to zoom in on nos of a tuple by a given factor"""
 
 from typing import Tuple, List
 
@@ -9,11 +8,11 @@ from typing import Tuple, List
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     Function to zoom in on each item in the tuple by a factor.
-    
+
     Parameters:
     - lst: Tuple of items to zoom in on.
     - factor: The factor by which to zoom in (default is 2).
-    
+
     Returns:
     - A list with each item in lst repeated factor times.
     """
