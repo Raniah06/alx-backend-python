@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
+"""
+This module contains a function to zoom in on elements of a tuple by a given factor.
+"""
+
 from typing import Tuple, List
+
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
