@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-This module contains a function `safely_get_value` that retrieves a value 
-from a dictionary using a given key. If the key is not found, it returns 
+This module contains a function `safely_get_value` that retrieves from a dictionary using a given key.If the key is not found, it returns 
 the default value.
 """
 
