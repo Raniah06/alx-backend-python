@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-This module contains a function `safely_get_value` that retrieves a value 
-from a dictionary using a given key. If the key is not found, it returns 
-the default value.
+This module contains a function `safely_get_value` that retrieves a dictionary value using a given key. If the key is not found, it returns the default value.
 """
 
 from typing import Mapping, Any, Union, TypeVar
